@@ -1,28 +1,3 @@
-/*fun main(){
-    val prevPaySum = 0.00
-    val cardType = "MasterCard"
-    val currentAmmount = 11350.00
-
-    println("тест")
-
-    when(cardType){
-        "Vk Pay"-> {
-            when {
-                ((currentAmmount <= 15000.00) && (currentAmmount + prevPaySum <= 40000.00)) -> {
-                    println("comissiya $cardType ($currentAmmount): " + calculatePay(prevPaySum,cardType,currentAmmount))
-                }
-                else -> println("$cardType maksimalnaya summa perevoda VK Pay 15000 za raz i 40000 za mesyac")
-            }
-        }
-        else -> {
-            when {
-                ((currentAmmount <= 150000.00) && (currentAmmount + prevPaySum <= 600000.00)) -> {
-                    println("comissiya $cardType ($currentAmmount): " + calculatePay(prevPaySum,cardType,currentAmmount))
-                }
-            }
-        }
-    }
-}*/
 
 
 
