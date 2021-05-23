@@ -1,7 +1,3 @@
-
-
-
-
 fun calculatePay(prevPay:Double=0.00,cardT:String,currAmount:Double):Double{
     val commision:Double = when(cardT){
         "Vk Pay" -> 0.00
