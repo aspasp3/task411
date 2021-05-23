@@ -10,8 +10,5 @@ fun calculatePay(prevPay:Double=0.00,cardT:String,currAmount:Double):Double{
         "Visa","Mir" -> 0.075
         else -> 0.00
     }
-    if(commision>0.0)
-        return commision
-    else
-        return 0.0
+    return if (commision > 0.0) commision else 0.0
 }
