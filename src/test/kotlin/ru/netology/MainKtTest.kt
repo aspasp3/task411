@@ -17,7 +17,7 @@ class MainKtTest {
         val cardT = "MasterCard"
         val currAmount = 3000.00
         val commision = calculatePay(prevPay, cardT, currAmount)
-        assertEquals(0.0, commision, 0.0)
+        assertEquals(10.0, commision, 0.0)
     }
 
     @Test
